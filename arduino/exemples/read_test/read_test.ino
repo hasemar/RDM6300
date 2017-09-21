@@ -21,6 +21,7 @@ void setup()
   pinMode(Led, OUTPUT);
   RFID.begin(9600);    // start serial to RFID reader
   Serial.begin(9600);  // start serial to PC 
+  Serial.println('serial ready...');
 }
 
 void loop()
